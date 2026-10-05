@@ -1,0 +1,141 @@
+{
+  "ruleset": "0.5.0",
+  "summary": "1043 sequence records: 481 RefPlantNLR, Sr6, 394 MorexV3 and 167 Arabidopsis NB-ARC candidates. 3 exact-sequence phenotype records admitted for condition-specific display.",
+  "validationStatus": "Descriptive dataset audit only. Predictive capability is not established. Conservative homology grouping places 1,035 records in one component; independent train/test evaluation is not currently viable.",
+  "inventory": {
+    "proteomes": [
+      {
+        "dataset": "MorexV3",
+        "species": "Hordeum vulgare",
+        "protein_records": 37961,
+        "gene_representatives": 35825,
+        "nb_arc_candidates": 394,
+        "method": "PF00931.29 gathering cutoffs; longest isoform per source gene",
+        "definitive_nlr_count": null
+      },
+      {
+        "dataset": "Arabidopsis",
+        "species": "Arabidopsis thaliana",
+        "protein_records": 48321,
+        "gene_representatives": 27628,
+        "nb_arc_candidates": 167,
+        "method": "PF00931.29 gathering cutoffs; longest isoform per source gene",
+        "definitive_nlr_count": null
+      }
+    ],
+    "refplantnlr_count": 481,
+    "refplantnlr_architecture_counts": {
+      "CNL": 294,
+      "OCNLO": 4,
+      "RNL": 7,
+      "NL": 31,
+      "L": 1,
+      "TNL": 90,
+      "CNNL": 6,
+      "TN": 4,
+      "TNLO": 6,
+      "RNOO": 1,
+      "BCCNL": 3,
+      "CPL": 1,
+      "CONL": 15,
+      "CNLO": 5,
+      "TNLN": 2,
+      "BCNL": 1,
+      "TNOOO": 1,
+      "ONL": 5,
+      "TNOTNL": 1,
+      "CL": 1,
+      "OCNLOO": 1,
+      "OOOTNLO": 1
+    },
+    "published_arabidopsis_nlrtracker": {
+      "protein_records": 422,
+      "loci": 167,
+      "classes": {
+        "CC-NLR": 85,
+        "UNDETERMINED": 47,
+        "CCR-NLR": 9,
+        "TIR-NLR": 259,
+        "CC-NLR or CCR-NLR or CCG10-NLR": 22
+      },
+      "source": "RefPlantNLR 2021 S3 Appendix; NCBI GCF_000001735.4; not the same annotation as Ensembl release 62"
+    },
+    "pyhmmer": "0.12.3",
+    "pfam": "PF00931.29",
+    "profile_sha256": "671e56389edbf06664d1eb034f742957ad99f2520a5d3d2ff3c6d49d4305ab88"
+  },
+  "homology": {
+    "method": "All-pairs Smith-Waterman on standardized PF00931 domains, BLOSUM62, gap open -10 / extend -0.5; >=30% identity over alignment columns and >=70% aligned residues in BOTH domains; single-link connected components plus exact full-sequence identity.",
+    "groups": 9,
+    "largest_group": 1035,
+    "records_with_domains": 1040,
+    "quarantined": 3,
+    "cross_fold_qualifying_edges": 0,
+    "cross_fold_exact_duplicates": 0,
+    "alignments_tested": 516412,
+    "qualifying_edges": 168523,
+    "species_holdouts": [
+      {
+        "species": "Hordeum vulgare",
+        "test_records": 430,
+        "train_after_homolog_purge": 1,
+        "purged_other_species": 609
+      },
+      {
+        "species": "Arabidopsis thaliana",
+        "test_records": 262,
+        "train_after_homolog_purge": 5,
+        "purged_other_species": 774
+      },
+      {
+        "species": "Triticum aestivum",
+        "test_records": 45,
+        "train_after_homolog_purge": 5,
+        "purged_other_species": 991
+      },
+      {
+        "species": "Nicotiana glutinosa",
+        "test_records": 1,
+        "train_after_homolog_purge": 5,
+        "purged_other_species": 1034
+      },
+      {
+        "species": "Solanum stoloniferum",
+        "test_records": 4,
+        "train_after_homolog_purge": 5,
+        "purged_other_species": 1031
+      }
+    ],
+    "limitations": "Homology thresholding does not prove evolutionary independence. Conservative transitive groups can be large. Domain-lacking records are quarantined. No model was trained; folds are a prospective assignment, not cross-validation performance."
+  },
+  "coordinateChecks": 3537,
+  "examples": [
+    {
+      "system": "N",
+      "phenotype": "heat-sensitive",
+      "sequenceOnlyCall": "Uncertain",
+      "integratedCall": "TS-like",
+      "usedForRuleDesign": true,
+      "reference": "https://doi.org/10.1371/journal.ppat.1000844"
+    },
+    {
+      "system": "Ry_sto",
+      "phenotype": "heat-tolerant",
+      "sequenceOnlyCall": "Uncertain",
+      "integratedCall": "TT-like",
+      "usedForRuleDesign": true,
+      "reference": "https://doi.org/10.1111/pbi.13230"
+    },
+    {
+      "system": "Sr6",
+      "phenotype": "heat-sensitive",
+      "sequenceOnlyCall": "Uncertain",
+      "integratedCall": "TS-like",
+      "usedForRuleDesign": true,
+      "reference": "https://doi.org/10.1038/s41467-025-60030-x"
+    }
+  ],
+  "performanceMetrics": null,
+  "metricsReason": "The three admitted phenotype examples were already used for hypothesis design; they do not constitute an independent evaluation set. Mixed assays and sparse labels also preclude defensible predictive performance estimates.",
+  "thresholdsAdjusted": false
+}

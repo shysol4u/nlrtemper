@@ -1,0 +1,338 @@
+[
+  {
+    "id": "N",
+    "sequence": "MASSSSSSRWSYDVFLSFRGEDTRKTFTSHLYEVLNDKGIKTFQDDKRLEYGATIPGELCKAIEESQFAIVVFSENYATSRWCLNELVKIMECKTRFKQTVIPIFYDVDPSHVRNQKESFAKAFEEHETKYKDDVEGIQRWRIALNEAANLKGSCDNRDKTDADCIRQIVDQISSKLCKISLSYLQNIVGIDTHLEKIESLLEIGINGVRIMGIWGMGGVGKTTIARAIFDTLLGRMDSSYQFDGACFLKDIKENKRGMHSLQNALLSELLREKANYNNEEDGKHQMASRLRSKKVLIVLDDIDNKDHYLEYLAGDLDWFGNGSRIIITTRDKHLIEKNDIIYEVTALPDHESIQLFKQHAFGKEVPNENFEKLSLEVVNYAKGLPLALKVWGSLLHNLRLTEWKSAIEHMKNNSYSGIIDKLKISYDGLEPKQQEMFLDIACFLRGEEKDYILQILESCHIGAEYGLRILIDKSLVFISEYNQVQMHDLIQDMGKYIVNFQKDPGERSRLWLAKEVEEVMSNNTGTMAMEAIWVSSYSSTLRFSNQAVKNMKRLRVFNMGRSSTHYAIDYLPNNLRCFVCTNYPWESFPSTFELKMLVHLQLRHNSLRHLWTETKHLPSLRRIDLSWSKRLTRTPDFTGMPNLEYVNLYQCSNLEEVHHSLGCCSKVIGLYLNDCKSLKRFPCVNVESLEYLGLRSCDSLEKLPEIYGRMKPEIQIHMQGSGIRELPSSIFQYKTHVTKLLLWNMKNLVALPSSICRLKSLVSLSVSGCSKLESLPEEIGDLDNLRVFDASDTLILRPPSSIIRLNKLIILMFRGFKDGVHFEFPPVAEGLHSLEYLNLSYCNLIDGGLPEEIGSLSSLKKLDLSRNNFEHLPSSIAQLGALQSLDLKDCQRLTQLPELPPELNELHVDCHMALKFIHYLVTKRKKLHRVKLDDAHNDTMYNLFAYTMFQNISSMRHDISASDSLSLTVFTGQPYPEKIPSWFHHQGWDSSVSVNLPENWYIPDKFLGFAVCYSRSLIDTTAHLIPVCDDKMSRMTQKLALSECDTESSNYSEWDIHFFFVPFAGLWDTSKANGKTPNDYGIIRLSFSGEEKMYGLRLLYKEGPEVNALLQMRENSNEPTEHSTGIRRTQYNNRTSFYELING",
+    "anchor": 643,
+    "annotation": {
+      "nlrClass": "TNL",
+      "source": "RefPlantNLR 2021 S12: LRRpredictor repeats; SUPERFAMILY SSF46785 WHD (computational annotations)",
+      "firstLrrStart": 550,
+      "lrrEnd": 1002,
+      "firstLrrEnd": 565,
+      "lrrRepeats": [
+        {
+          "start": 550,
+          "end": 565
+        },
+        {
+          "start": 571,
+          "end": 586
+        },
+        {
+          "start": 593,
+          "end": 608
+        },
+        {
+          "start": 616,
+          "end": 631
+        },
+        {
+          "start": 639,
+          "end": 654
+        },
+        {
+          "start": 663,
+          "end": 678
+        },
+        {
+          "start": 685,
+          "end": 700
+        },
+        {
+          "start": 709,
+          "end": 724
+        },
+        {
+          "start": 733,
+          "end": 748
+        },
+        {
+          "start": 757,
+          "end": 772
+        },
+        {
+          "start": 781,
+          "end": 796
+        },
+        {
+          "start": 804,
+          "end": 819
+        },
+        {
+          "start": 830,
+          "end": 845
+        },
+        {
+          "start": 855,
+          "end": 870
+        },
+        {
+          "start": 878,
+          "end": 893
+        },
+        {
+          "start": 899,
+          "end": 914
+        },
+        {
+          "start": 923,
+          "end": 938
+        },
+        {
+          "start": 961,
+          "end": 976
+        },
+        {
+          "start": 987,
+          "end": 1002
+        }
+      ],
+      "domains": [
+        {
+          "start": 193,
+          "end": 417,
+          "name": "NB-ARC domain",
+          "accession": "PF00931",
+          "source": "Pfam / RefPlantNLR",
+          "score": "8.9E-31"
+        },
+        {
+          "start": 177,
+          "end": 441,
+          "name": "P-loop containing nucleoside triphosphate hydrolase",
+          "accession": "SSF52540",
+          "source": "SUPERFAMILY / RefPlantNLR",
+          "score": "3.26E-58"
+        },
+        {
+          "start": 486,
+          "end": 816,
+          "name": "Leucine-rich repeat domain superfamily",
+          "accession": "SSF52058",
+          "source": "SUPERFAMILY / RefPlantNLR",
+          "score": "4.49E-34"
+        },
+        {
+          "start": 804,
+          "end": 933,
+          "name": "Leucine-rich repeat domain superfamily",
+          "accession": "SSF52058",
+          "source": "SUPERFAMILY / RefPlantNLR",
+          "score": "2.49E-16"
+        },
+        {
+          "start": 2,
+          "end": 153,
+          "name": "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+          "accession": "SSF52200",
+          "source": "SUPERFAMILY / RefPlantNLR",
+          "score": "4.97E-46"
+        },
+        {
+          "start": 12,
+          "end": 181,
+          "name": "TIR domain",
+          "accession": "PF01582",
+          "source": "Pfam / RefPlantNLR",
+          "score": "5.7E-46"
+        }
+      ]
+    },
+    "status": "Sequence-position match: reported Y646 and N648 match this sequence. NLEYV 643\u2013647 contains Y646 at the second-E-equivalent position; the stronger NLEEV 654\u2013658 is a different window.",
+    "source": "https://doi.org/10.1371/journal.ppat.1000844",
+    "conditions": "Wild-type N with its elicitor in N. tabacum: cell death at 22 \u00b0C, not 30 \u00b0C (Fig. 6).",
+    "assay": "Elicitor-triggered cell-death assay"
+  },
+  {
+    "id": "SNC1",
+    "sequence": "MEIASSSGSRRYDVFPSFRGEDVRDSFLSHLLKELRGKAITFIDDEIERSRSIGPELLSAIKESRIAIVIFSKNYASSTWCLNELVEIHKCYTNLNQMVIPIFFHVDASEVKKQTGEFGKVFEETCKAKSEDEKQSWKQALAAVAVMAGYDLRKWPSEAAMIEELAEDVLRKTMTPSDDFGDLVGIENHIEAIKSVLCLESKEARIMVGIWGQSGIGKSTIGRALYSKLSIQFHHRAFITYKSTSGSDVSGMKLRWEKELLSEILGQKDIKIEHFGVVEQRLKQQKVLILLDDVDSLEFLKTLVGKAEWFGSGSRIIVITQDRQLLKAHEIDLIYEVEFPSEHLALTMLCRSAFGKDSPPDDFKELAFEVAKLAGNLPLGLSVLGSSLKGRTKEWWMEMMPRLRNGLNGDIMKTLRVSYDRLHQKDQDMFLYIACLFNGFEVSYVKDLLKDNVGFTMLTEKSLIRITPDGYIEMHNLLEKLGREIDRAKSKGNPGKRRFLTNFEDIHEVVTEKTGTETLLGIRLPFEEYFSTRPLLIDKESFKGMRNLQYLEIGYYGDLPQSLVYLPLKLRLLDWDDCPLKSLPSTFKAEYLVNLIMKYSKLEKLWEGTLPLGSLKEMNLRYSNNLKEIPDLSLAINLEELDLVGCKSLVTLPSSIQNATKLIYLDMSDCKKLESFPTDLNLESLEYLNLTGCPNLRNFPAIKMGCSDVDFPEGRNEIVVEDCFWNKNLPAGLDYLDCLTRCMPCEFRPEQLAFLNVRGYKHEKLWEGIQSLGSLEGMDLSESENLTEIPDLSKATKLESLILNNCKSLVTLPSTIGNLHRLVRLEMKECTGLEVLPTDVNLSSLETLDLSGCSSLRSFPLISTNIVWLYLENTAIEEIPSTIGNLHRLVRLEMKKCTGLEVLPTDVNLSSLETLDLSGCSSLRSFPLISESIKWLYLENTAIEEIPDLSKATNLKNLKLNNCKSLVTLPTTIGNLQKLVSFEMKECTGLEVLPIDVNLSSLMILDLSGCSSLRTFPLISTNIVWLYLENTAIEEIPSTIGNLHRLVKLEMKECTGLEVLPTDVNLSSLMILDLSGCSSLRTFPLISTRIECLYLQNTAIEEVPCCIEDFTRLTVLMMYCCQRLKTISPNIFRLTRLELADFTDCRGVIKALSDATVVATMEDHVSCVPLSENIEYIWDKLYHLPSKLNFNDVEFKFCCSNRIKECGVRLMYVSQEENNQQTTRSEKRMRMTSGTSEEDINLPYGLIVADTGLAALNMELSLGQGEPSSSTSLEGEALCVDYMITEEQDKGIPILFPVSGN",
+    "anchor": 637,
+    "annotation": {
+      "nlrClass": "TNL",
+      "source": "RefPlantNLR annotations projected onto identical SNC1 sequence segments; coordinates updated for the user-supplied reference (not a new domain prediction)",
+      "firstLrrStart": 543,
+      "lrrEnd": 1169,
+      "whdStart": 410,
+      "whdEnd": 490,
+      "firstLrrEnd": 558,
+      "lrrRepeats": [
+        {
+          "start": 543,
+          "end": 558
+        },
+        {
+          "start": 565,
+          "end": 580
+        },
+        {
+          "start": 587,
+          "end": 602
+        },
+        {
+          "start": 610,
+          "end": 625
+        },
+        {
+          "start": 633,
+          "end": 648
+        },
+        {
+          "start": 657,
+          "end": 672
+        },
+        {
+          "start": 680,
+          "end": 695
+        },
+        {
+          "start": 747,
+          "end": 762
+        },
+        {
+          "start": 770,
+          "end": 785
+        },
+        {
+          "start": 793,
+          "end": 808
+        },
+        {
+          "start": 817,
+          "end": 832
+        },
+        {
+          "start": 840,
+          "end": 855
+        },
+        {
+          "start": 861,
+          "end": 876
+        },
+        {
+          "start": 884,
+          "end": 899
+        },
+        {
+          "start": 907,
+          "end": 922
+        },
+        {
+          "start": 928,
+          "end": 943
+        },
+        {
+          "start": 950,
+          "end": 965
+        },
+        {
+          "start": 974,
+          "end": 989
+        },
+        {
+          "start": 997,
+          "end": 1012
+        },
+        {
+          "start": 1018,
+          "end": 1033
+        },
+        {
+          "start": 1041,
+          "end": 1056
+        },
+        {
+          "start": 1064,
+          "end": 1079
+        },
+        {
+          "start": 1085,
+          "end": 1100
+        },
+        {
+          "start": 1108,
+          "end": 1123
+        },
+        {
+          "start": 1132,
+          "end": 1147
+        },
+        {
+          "start": 1154,
+          "end": 1169
+        }
+      ],
+      "domains": [
+        {
+          "start": 12,
+          "end": 185,
+          "name": "TIR domain",
+          "accession": "PF01582",
+          "source": "Pfam / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "9.3E-50"
+        },
+        {
+          "start": 187,
+          "end": 421,
+          "name": "NB-ARC domain",
+          "accession": "PF00931",
+          "source": "Pfam / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "1.4E-16"
+        },
+        {
+          "start": 724,
+          "end": 1017,
+          "name": "Leucine-rich repeat domain superfamily",
+          "accession": "SSF52058",
+          "source": "SUPERFAMILY / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "1.7E-40"
+        },
+        {
+          "start": 536,
+          "end": 740,
+          "name": "Leucine-rich repeat domain superfamily",
+          "accession": "SSF52058",
+          "source": "SUPERFAMILY / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "4.08E-23"
+        },
+        {
+          "start": 174,
+          "end": 433,
+          "name": "P-loop containing nucleoside triphosphate hydrolase",
+          "accession": "SSF52540",
+          "source": "SUPERFAMILY / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "1.44E-49"
+        },
+        {
+          "start": 6,
+          "end": 149,
+          "name": "Toll/interleukin-1 receptor homology (TIR) domain superfamily",
+          "accession": "SSF52200",
+          "source": "SUPERFAMILY / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "3.53E-35"
+        },
+        {
+          "start": 997,
+          "end": 1146,
+          "name": "Leucine-rich repeat domain superfamily",
+          "accession": "SSF52058",
+          "source": "SUPERFAMILY / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "1.13E-18"
+        },
+        {
+          "start": 410,
+          "end": 490,
+          "name": "Winged helix DNA-binding domain superfamily",
+          "accession": "SSF46785",
+          "source": "SUPERFAMILY / RefPlantNLR; projected onto identical user-supplied SNC1 segment",
+          "score": "2.99E-7"
+        }
+      ]
+    },
+    "status": "User-supplied SNC1 reference: 1,301 aa. NLEEL is at 637\u2013641; its second E is E640. This sequence replaces the previous SNC1 reference.",
+    "source": "https://doi.org/10.1371/journal.ppat.1000844",
+    "conditions": "Temperature-dependent SNC1-system phenotypes reported; wild-type vs autoactive alleles must be resolved.",
+    "assay": "Autoimmunity / cell-death phenotypes",
+    "sequenceSource": "User-supplied SNC1 reference (2026-09-28)",
+    "sequence_sha256": "ce74d753331b4f75ab5404fdedd04d261e7b4a5f1819fc39c54417ce6316341f"
+  }
+]

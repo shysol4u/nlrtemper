@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "0.5.0",
+  "released": "2026-09-28",
+  "status": "frozen exploratory rules; no fitted temperature predictor",
+  "nleel": {
+    "id": "NLEEL-like-v0.2.0",
+    "reference": "NLEEL",
+    "minimumIdentity": 0.6,
+    "minimumConservation": 0.8,
+    "secondEIndex": 3,
+    "conservativeGroups": [
+      "NQ",
+      "LIVM",
+      "DE",
+      "DE",
+      "LIVM"
+    ],
+    "interpretation": "Similarity groups are exploratory, not literature-validated tolerated substitutions."
+  },
+  "position": {
+    "contextFlank": 50,
+    "interpretation": "Earliest qualifying motif within \u00b150 aa of annotated LRR domain-region start; then earliest in LRR region; then most conserved unresolved. Individual LRR repeat containment is a separate descriptor.",
+    "preferredSelection": "Earliest qualifying motif within \u00b150 aa of annotated LRR domain-region start; then earliest in LRR region; then most conserved unresolved. Individual LRR repeat containment is a separate descriptor.",
+    "priority": "domain-start"
+  },
+  "interface": {
+    "id": "interface-shorthand-exploratory-v0.2.0",
+    "status": "user-supplied grammar; exact published grammar not independently verified",
+    "reportedConsensus": "axxaxxa/LxxL/IxaxxCxaxxaxx",
+    "segments": [
+      "axxaxxa",
+      "LxxL",
+      "IxaxxCxaxxaxx"
+    ],
+    "aliphaticResidues": "AILMV",
+    "maximumBundleSpan": 180,
+    "interpretation": "For continuity only: a = A/I/L/M/V, x = any standard residue; slashes separate three ordered windows. This interpretation and 180-aa span are inherited hypotheses, not verified Grech-Baran definitions. All segment positions are also reported independently."
+  },
+  "classification": {
+    "tsLikeMinimum": 0.9,
+    "ttLikeMinimum": 0.95,
+    "abstainOnCompetingEvidence": true,
+    "interpretation": "Numerical thresholds frozen from v0.2.0. Proximal selection and context/structure gates are explicit corrections, not benchmark tuning. Contact counts have no calibrated TS/TT direction."
+  },
+  "structure": {
+    "contactCutoffAngstrom": 4.5,
+    "minimumSequenceSeparation": 5,
+    "minimumMappedResidues": 30,
+    "interpretation": "Unique residue pairs with any nonhydrogen atom distance <=4.5 A, between explicitly annotated WHD and LRR residues; excludes local sequence neighbors. A geometric descriptor, not a salt-bridge, hydrogen-bond, energetic-stability, or phenotype classifier."
+  },
+  "references": [
+    {
+      "label": "Grech-Baran et al., preprint (2025), abstract verified; full classifier unavailable",
+      "url": "https://doi.org/10.64898/2025.12.17.694812"
+    },
+    {
+      "label": "Zhu et al. (2010); allele and coordinate context must be retained",
+      "url": "https://doi.org/10.1371/journal.ppat.1000844"
+    },
+    {
+      "label": "Hewitt et al. (2025): distinct Sr6, Sr13 and Sr21 temperature responses",
+      "url": "https://doi.org/10.1038/s41467-025-60030-x"
+    },
+    {
+      "label": "Kourelis et al. (2021), RefPlantNLR",
+      "url": "https://doi.org/10.1371/journal.pbio.3001124"
+    }
+  ]
+}

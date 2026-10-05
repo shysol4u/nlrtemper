@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "0.2.0",
+  "released": "2026-09-17",
+  "status": "exploratory research ruleset",
+  "nleel": {"id":"NLEEL-like-v0.2.0","reference":"NLEEL","minimumIdentity":0.6,"minimumConservation":0.8,"secondEIndex":3,"conservativeGroups":["NQ","LIVM","DE","DE","LIVM"],"interpretation":"Candidate sequence evidence only. NLEEL is not a universal determinant of temperature response."},
+  "interface": {"id":"interface-shorthand-exploratory-v0.2.0","status":"enabled as a user-directed exploratory hypothesis","reportedConsensus":"axxaxxa/LxxL/IxaxxCxaxxaxx","segments":["axxaxxa","LxxL","IxaxxCxaxxaxx"],"aliphaticResidues":"AILMV","maximumBundleSpan":180,"interpretation":"The slash-separated strings are scanned as three ordered segments in a heuristic C-terminal LRR search region. This is not a verified reproduction of the Grech-Baran classifier."},
+  "classification": {"tsLikeMinimum":0.9,"ttLikeMinimum":0.95,"minimumNlrContext":"partial","abstainOnCompetingEvidence":true},
+  "references": [
+    {"label":"Grech-Baran et al. (2025) preprint","doi":"10.64898/2025.12.17.694812"},
+    {"label":"Zhu et al. (2010)","doi":"10.1371/journal.ppat.1000844"},
+    {"label":"AlphaFold DB","url":"https://alphafold.ebi.ac.uk/"},
+    {"label":"3Dmol.js","url":"https://3dmol.csb.pitt.edu/"}
+  ]
+}

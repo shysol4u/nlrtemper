@@ -1,0 +1,11 @@
+# Phase 3 — initial dataset audit
+
+The dataset contains 1,043 records: RefPlantNLR2021 (481), deposited Sr6 (1), MorexV3 NB-ARC candidates (394), and Arabidopsis NB-ARC candidates (167). Proteome candidates were screened independently with PF00931.29 gathering cutoffs after choosing the longest protein per source gene. These are not definitive NLR counts or a new NLRtracker run. Published NLRtracker counts use a different annotation release and cannot be equated directly with this screen.
+
+Three exact-sequence phenotype records are admitted: N, Ry_sto and Sr6. Their temperatures, assays, references and limitations are in phenotypes.json. SNC1 allele-specific phenotype attribution (sequence numbering is now resolved), RMRL component attribution, and matched Sr13/Sr21/Sr35 evidence remain incomplete. No phenotype labels were transferred by gene name or homology.
+
+Homology groups use all-pairs local alignments of standardized NB-ARC domains (BLOSUM62, gap open −10, extension −0.5; identity ≥30%, aligned coverage ≥70% of both domains), transitive connected components and exact full-sequence duplicate linking. Three records lacking standard domains are quarantined. The audit found zero qualifying cross-fold edges and zero cross-fold exact duplicates. However, the largest group contains 1,035 records. This conservative grouping leaves insufficient independent training/evaluation groups; it is a documented failure case, not successful predictive validation. Species holdouts purge homologous training records.
+
+Numerical motif thresholds were frozen before this audit. No model was trained. The admitted phenotype examples were already used in hypothesis design, so no independent confusion matrix or predictive sensitivity, specificity, precision, recall, balanced accuracy or MCC is claimed. Integrated calls are excluded from prediction evaluation because they use phenotype inputs.
+
+Reproduce the descriptive motif audit from the checked-in dataset with `node validation/report.mjs`. Raw-source acquisition and environment details are in the repository's validation directory. Broader phenotype curation and useful independent holdouts are required before threshold changes or increased model complexity.
